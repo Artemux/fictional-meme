@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+    <head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="author" content="Vladimir" /> 
+	<meta http-equiv="Content-Language" content="ru"/>
+
+	<script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
+	<script language="javascript" src="../js_lib/MagApi.js"></script>   
+
+	<script language="javascript" src="./js/VodPlayer.js"></script>
+	<script language="javascript" src="./js/Volume.js"></script>
+	<script type="text/javascript" src="./js/Channel.js"></script>
+	<script type="text/javascript" src="./js/Menu.js"></script>
+	<script type="text/javascript" src="./js/MenuExtended.js"></script>
+	<script type="text/javascript" src="./js/StatusWindow.js"></script>
+	<script type="text/javascript" src="./js/Data.js"></script>
+	<script type="text/javascript" src="./js/HtmlLoader.js"></script>
+	<script type="text/javascript" src="./js/Server.js"></script>
+	<script type="text/javascript" src="./js/Status.js"></script>
+	<script language="javascript" src="./js/function.js"></script>
+	<script language="javascript" src="../js_lib/PlayerSettings.js"></script>
+	<script type="text/javascript" src="../js_lib/clock.js"></script>
+	<script type="text/javascript" src="./js/index.js"></script>
+	<script type="text/javascript" src="../js_lib/event.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="./css/main.css" />
+	<title>FS TO</title>
+    </head>
+
+    <body onkeydown="FSKeyListener(event);">
+	<div id="global" style="display: block;">
+	    <div class="header">
+			<div class="title">FS.TO</div>
+			<div class="search-block">
+				<table width="100%">
+					<tr>
+						<td width="5%" align="right"><img src="./images/ico_f2.png"/></td>
+						<td width="10%" align="right"><span>Поиск:</span></td>
+						<td width="75%"><input id="search" type="text"></input></td>
+						<td align="left">&nbsp;<img src="./images/ico_ok.png"/></td>
+					</tr>
+				</table>
+			</div>	
+			</div>
+			<div class="main">
+			<div id="nav"></div>
+			<div id="playlist_block">
+			<div id="popup"></div>	
+				<table width="100%">
+					<tr>
+						<td valign="top" align="left">
+							<div id="playlist"></div>
+						</td>
+						<td width="150px" valign="top" align="center" class="detail-block">
+							<div>
+									<table width="100%">
+										<tr>
+											<td colspan="2" align="center" valign="top">
+												<div class="detail-block-image">
+													<img src="./images/movies-icon.png"/>
+												</div>
+											</td>
+										</tr>
+										<tr class="detail-block-vote">
+											<td align="center">
+												<img src="./images/thumbs-up-icon.png">&nbsp;<span class="detail-block-vote-positive">0</span>
+											</td>
+											<td align="center">
+												<img src="./images/dislike-icon.png">&nbsp;<span class="detail-block-vote-negative">0</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2" align="center">
+												<div class="detail-block-info"></div>
+											</td>
+										</tr>
+									</table>
+							</div>
+						</td>
+					</tr>
+				</table>
+				
+				
+			</div>
+			<div id="page"></div>
+	    </div>
+
+	    <div class="footer">
+			<table width="100%">
+					<tr>
+						<td width="32px" align="right"><img src="./images/ico_f3.png"/></td>
+						<td width="90px" align="left" valign="middle">Режим Повтора:</td>
+						<td width="100" align="left" valign="left"><span class="player-status player-status-loop off">&nbsp;</span></td>
+						<td width="32px" align="right"><img src="./images/ico_f4.png"/></td>
+						<td width="110px" align="left">Запуск след. файла:</td>
+						<td width="32px" align="left"><span class="player-status player-status-slideshow on">&nbsp;</span></td>
+					</tr>
+				</table>
+			<div class="hidden"><input id="hide_focus_from_search" type="text"/></div>
+	    </div>
+	</div>
+	<div id="InfoDiv" class="statusclass" style="visibility: hidden;"></div>
+	<div id="topDiv">
+	    <div id="clockDiv"></div>
+	    <div id="film_name"></div>
+	</div>
+	<div id="system">
+	    <div id="box">
+		<div id="play_status" class="play"></div>
+		<div id="progress_bar">
+		    <div id="progress_bar_block">
+			<div id="ProgressBar"></div>
+		    </div>
+		</div>
+		<div id="timebar">
+		    <div id="time" style="position: relative; margin-top: 2px;"></div>
+		</div>
+
+	    </div>
+	</div>
+	<div id="video_settings" style=" z-index: 999;display: none; color: white; width: 300px; height: 200px; top: 170px; left: 200px; position: absolute; background: url(./image/system/settings.png) no-repeat;">
+	    <div class="video_settings_block" style="padding: 45px 10px 10px 22px; display: block;">
+		<div id="aspect" onfocus="setVideoParam('aspect');" onclick="videoSettings('aspect')" class="settingElement"></div>
+		<div id="content" onfocus="setVideoParam('content');" onclick="videoSettings('content')" class="settingElement"></div>
+		<div id="audio" onfocus="setVideoParam('audio');" onclick="videoSettings('audio')" class="settingElement"></div>
+	    </div>
+	</div>
+	<div id="Muted" style="display: none; position: fixed; top: 50%; left: 50%; margin: -64px 0 0 -64px;"><img title="" alt="" src="./image/system/muted.png"/></div>
+	<div id="VolumeBlock" style="z-index: 999; position: fixed; right: 10px; overflow: hidden; width: 5%; height: 100%; visibility: visible;">
+	    <div id="Volume">
+	    </div>
+	</div>
+    </body>
+</html>

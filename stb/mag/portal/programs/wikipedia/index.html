@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="author" content="Vladimir" /> 
+	<meta http-equiv="Content-Language" content="ru"/>
+	 
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js_lib/MagApi.js"></script>
+	<script type="text/javascript" src="../js_lib/clock.js"></script>
+	<script type="text/javascript" src="../js_lib/weather-widget.js"></script>
+	<script type="text/javascript" src="./js/Menu.js"></script>
+    <script type="text/javascript" src="./js/init.js"></script>
+	
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+	<title>Media</title>
+</head>
+
+<body>
+	<div id="header">
+		<div id="left">
+			<div class="image">
+				<img src="./images/clock-v2.png" alt=""></img>
+			</div>
+					
+			<div class="clock">
+				11:30
+				<br/>
+				<span>12 сентября 2012</span>
+			</div>
+		</div>
+		<div id="right">
+		</div>
+	</div><!-- #header-->
+	<div id="content">
+		<div id="loading">
+			<div class="info"><img src="./images/ajax-loader.gif" alt=""></img>&nbsp;&nbsp;Загрузка</div>
+		</div>
+		<div class="title">WIKIPEDIA</div>
+		<div class="main">
+			<div class="search-form">
+				Поиск: <input id="search" type="text" onkeypress="javascript: LiveSearch();"></input>
+			</div>
+		 	<div id="playlist_block">
+				<div id="playlist"></div>
+			</div>
+			<div id="page"></div>
+			<br/>
+			<div class="button-group">
+				<div class="button green"></div>&nbsp;Перейти к поиску
+			</div>
+    	</div>
+		
+	</div>
+	<div class="popup_overlay">
+    	<div class="popup">
+	        <h2>Welcome!</h2>
+	        <p>Please enter your login and password to continue</p>
+		</div>
+	</div>
+
+</body>
+</html>

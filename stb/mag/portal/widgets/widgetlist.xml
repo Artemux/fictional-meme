@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rsp stat="ok">
+<list> 
+<widget id="TEST">
+<title>BrizIPTVold</title>
+<compression size="95000" type="zip"/>
+<description/>
+<download>http://172.17.24.14/BrizIPTV_0.120_Others_20130913.zip</download>
+</widget>
+<widget id="brizIPTV">
+<title>BrizIPTV</title>
+<compression size="166000" type="zip"/>
+<description/>
+<download>http://172.17.24.14/briziptv_ver_1_0_001.zip</download>
+</widget>
+<widget id="fsto">
+<title>FS.TO</title>
+<compression size="553000" type="zip"/>
+<description/>
+<download>http://172.17.24.14/fs_to.zip</download>
+</widget>
+<widget id="exua">
+<title>EX.UA</title>
+<compression size="55100" type="zip"/>
+<description/>
+<download>http://172.17.24.14/ex_ua.zip</download>
+</widget>
+
+</list>
+</rsp>
+
+

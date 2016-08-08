@@ -1,0 +1,145 @@
+<html>
+<head>
+	<title>Settings</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<style type="text/css">
+		html, body { overflow:hidden; background:transparent; color:#fff; margin:0; padding:0; -webkit-user-select:none; font-family:Ubuntu,sans-serif; }
+
+		/* table cell spacing/padding reset */
+		table { border:0; border-collapse:collapse; border-spacing:0; }
+		table td { padding:0 }
+
+		/* meta-classes */
+		.maxh { height:100% }
+		.maxw { width:100% }
+		a { text-decoration:none }
+
+		/* scroll bars */
+		::-webkit-scrollbar-track { background:#2a2c2f }
+		::-webkit-scrollbar-thumb { background:#ffc20e }
+	</style>
+
+	
+
+    <script type="text/javascript" src="rules.js"></script>
+
+	<script type="text/javascript">
+		(function(){
+			var time = (new Date).getTime();
+			// conditional css loading
+			document.write('<link rel="stylesheet" href="../' + screen.height + '.css?_=' + time + '">');
+			document.write('<link rel="stylesheet" href="' + screen.height + '.css?_=' + time + '">');
+		})();
+	</script>
+	
+	
+	
+    
+    
+    
+    
+    
+    
+	
+    
+	
+	
+	
+	
+	
+	
+	
+	<!--<script type="text/javascript" src="../wm.js"></script> -->
+	
+	
+	
+	
+	
+
+	<style type="text/css">
+		/* fixes the insert in the blank input field error */
+		.page { position:static; }
+	</style>
+
+	<script type="text/javascript" src="index.min.js"></script>
+</head>
+<body onkeydown="mainEventListener(event);" style="overflow:hidden; display:none; background-color:#010101">
+	<div class="page main">
+		<!-- main page body -->
+		<table class="body">
+			<!-- page body top panel -->
+			<tr class="header">
+				<td colspan="2" class="crop">
+					<table class="maxw list">
+						<tr>
+							<!-- Breadcrumb component -->
+							<td class="cbcrumb"></td>
+							<!-- Search bar component -->
+							<td class="csbar"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+			<!-- page body main content block -->
+			<tr class="content" style="background-color:#010101">
+				<td colspan="3" class="crop">
+					<div id="main_page" class="settings_main" style="display: none;"></div>
+					<div id="list_page" class="settings_folder" style="display: none;"></div>
+					<div id="elements_page" class="settings_page" style="display: none;"></div>
+					<div id="wifi_page" class="wifi_search" style="display: none;"></div>
+					<div id="info_page" class="info_list" style="display: none;"></div>
+					<div id="update_page" class="settings_page" style="display: none;">
+						<div class="list">
+							<a href="#" class="item" id="update_type">
+								<div class="vertical">
+									<div class="title update_type_title"></div>
+								</div>
+								<div class="control">
+									<select class="elements update_type"></select>
+								</div>
+							</a>
+							<a href="#" class="item type web" id="web_update_url">
+								<div class="vertical">
+									<div class="title">URL :</div>
+								</div>
+								<div class="control">
+									<input class="elements update_url wide500" type="text">
+								</div>
+							</a>
+							<a href="#" class="item type usb" id="usb_device">
+								<div class="vertical">
+									<div class="title"></div>
+								</div>
+								<div class="control">
+									<select class="elements usb_device_select"></select>
+								</div>
+							</a>
+							<a href="#" class="item type usb" id="usb_update_url">
+								<div class="vertical">
+									<div class="title"></div>
+								</div>
+								<div class="control">
+									<input class="elements usb_device_update_url wide500" type="text">
+								</div>
+							</a>
+						</div>
+					</div>
+				</td>
+			</tr>
+
+			<!-- page body bottom panel -->
+			<tr class="footer">
+				<td class="crop exit">
+					<div onclick="navigation.exit_press()"></div>
+				</td>
+				<td class="crop" colspan="2">
+					<!-- control buttons block -->
+					<div class="cbpanel-main"></div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<table align="center" border="0" cellpadding="8" cellspacing="1" style="width: 100%; ">
+	<tbody>
+		<tr>
+			<td style="text-align: left; vertical-align: middle; ">
+				<div class="block">
+					<div class="image">
+						<img alt="logo.ico" src="/images/users/iptv_player.png" style="text-align: center; float: left; width: 64px; height: 52px; " /></div>
+					<div class="text">
+						<a href="http://www.briz.ua/images/user/File/IpTvPlayer-setup.exe">Скачать IPTV Player</a></div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: left; vertical-align: top; ">
+				<p>
+					<strong>Установка</strong>:</p>
+				<ul style="list-style-type: circle; ">
+					<li>
+						Запускаем скачанный файл, ставим галочку &laquo;Выбрать параметры и папку установки&raquo;.</li>
+					<li>
+						Выбираем &laquo;Версия модулей VideoLan VLC&raquo; &mdash; 2.0.3, далее устанавливаем программу в обычном режиме.</li>
+					<li>
+						По завершении установки на рабочем столе запустите иконку &laquo;IP-TV Player&raquo;.</li>
+					<li>
+						В появившемся окне &laquo;Выбор предустановки&raquo; вам необходимо выбрать &laquo;190 потоков&raquo; и нажать ОК. Если данное окно не появится и список каналов будет изначально пуст &ndash; перейдите в настройки плеера сочетанием клавиш (Ctrl + P) или нажатием кнопки (в виде шестерёнки) в правом нижнем углу плеера. В появившемся окне ставим галочку &laquo;Все настройки&raquo; (находится в нижней части открывшегося окна), переходим во вкладку &laquo;Общее&raquo; и вверху нажимаем &laquo;Загрузить преднастройку из списка провайдеров&raquo;. В окне выбираем &laquo;190 потоков&raquo;.</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center; vertical-align: top; ">
+				<div class="toggle_btn" style="text-align: left; ">
+					Чтобы IPTV Player работал с включенным Интернетом</div>
+				<div class="box">
+					<div class="text" style="text-align: left;">
+						Перейдите в настройки плеера сочетанием клавиш (Ctrl + P) или нажатием кнопки (в виде шестерёнки) в правом нижнем углу плеера. В появившемся окне ставим галочку &laquo;Все настройки&raquo; (находится в нижней части открывшегося окна), переходим во вкладку &laquo;Общее&raquo; и внизу выбираем &laquo;Сетевой интерфейс&raquo;, который начинается с <span style="color: #000080">192</span>. <em>(если у вас роутер)</em> или <span style="color: #000080">172.</span> <em>(если нет роутера)</em>, и нажимаем кнопку &laquo;Закрыть&raquo;.</div>
+				</div>
+				<div class="toggle_btn" style="text-align: left; ">
+					Если изображение подтормаживает/сыпет кубиками</div>
+				<div class="box">
+					<div class="text" style="text-align: left;">
+						Перейдите в настройки плеера сочетанием клавиш (Ctrl + P) или нажатием кнопки (в виде шестерёнки) в правом нижнем углу плеера. В появившемся окне ставим галочку &laquo;Все настройки&raquo; (находится в нижней части открывшегося окна), переходим во вкладку <strong>&laquo;Общее&raquo;</strong> и внизу меняем значение в поле &laquo;Кэш (миллисекунды)&raquo; на 1000.<br />
+						Если результат не изменился &mdash; отключите антивирусную защиту либо переустановите плеер.<br />
+						Примечание: чем выше кэш, тем дольше выполняется переключение каналов.</div>
+				</div>
+				<div class="toggle_btn" style="text-align: left; ">
+					Настройка антивирусов/firewall-ов</div>
+				<div class="box">
+					<div class="text">
+						<p style="text-align: left; ">
+							Практически все файерволы, такие как Agnitum Outpost и Kaspersky Internet Security по умолчанию блокируют Онлайн-ТВ (мультикаст), так как считают его атакой. В общем случае необходимо разрешить в системных правилах протокол <a href="http://ru.wikipedia.org/wiki/IGMP" target="_blank">IGMP</a> (протокол управления подключениями к мультикаст-группам) и разрешить IP-TV Player любую TCP-активность (для скачивания списков каналов и телепрограммы) и UDP-активность (непосредственно для Онлайн-ТВ).</p>
+						<p style="text-align: left; ">
+							<b>Outpost Firewall 2009</b></p>
+						<ul style="list-style-type: circle;">
+							<li style="text-align: left; ">
+								Нажмите кнопку Настройки на верхней панели окна Outpost</li>
+							<li style="text-align: left; ">
+								Перейдите в раздел &quot;Правила для приложений&quot;, нажмите кнопку Добавить</li>
+							<li style="text-align: left; ">
+								Укажите путь к VLC.exe, нажмите кнопку Редактировать, отметьте &quot;Разрешать все действия&quot;, нажмите OK</li>
+							<li style="text-align: left; ">
+								Перейдите в раздел &quot;Сетевые правила&quot;, нажмите кнопку &quot;Системные правила&quot;, перейдите во вкладку &quot;Низкоуровневые правила&quot;</li>
+							<li style="text-align: left; ">
+								Cнимите галочку с правила Block IGMP</li>
+							<li style="text-align: left; ">
+								Создайте правило &quot;Где протокол IP и IP-протокол IGMP. Разрешить эти данные&quot;</li>
+						</ul>
+						<p style="text-align: left; ">
+							<b>Старые версии Outpost Firewall</b></p>
+						<ul style="list-style-type: circle;">
+							<li style="text-align: left; ">
+								Меню Параметры &rarr; Приложения &rarr; Доверенные приложения &rarr; Добавить...</li>
+							<li style="text-align: left; ">
+								Укажите путь к VLC.exe</li>
+							<li style="text-align: left; ">
+								Перейдите на вкладку Системные и в секции &quot;Глобальные правила и доступ к rawsockets&quot; нажмите на кнопку Параметры</li>
+							<li style="text-align: left; ">
+								Снимите галочку с правила Block IGMP</li>
+							<li style="text-align: left; ">
+								Создайте правило &quot;Где протокол IP и IP-протокол IGMP. Разрешить эти данные&quot;</li>
+						</ul>
+						<p style="text-align: left; ">
+							<b>Kaspersky Internet Security</b></p>
+						<ul style="list-style-type: circle;">
+							<li style="text-align: left; ">
+								Настройка &rarr; Сетевой экран &rarr; Система фильтрации &rarr; Настройка &rarr; Правила для приложений</li>
+							<li style="text-align: left; ">
+								Нажмите добавить и укажите путь к VLC.exe</li>
+							<li style="text-align: left; ">
+								Нажмите кнопку Шаблон и выберите Разрешить всё</li>
+							<li style="text-align: left; ">
+								Перейдите на вкладку Правила для пакетов</li>
+							<li style="text-align: left; ">
+								Создайте правило &quot;Разрешать входящие и исходящие IGMP/RGMP пакеты</li>
+						</ul>
+						<p style="text-align: left; ">
+							<b>ESET Smart Security</b></p>
+						<ul style="list-style-type: circle;">
+							<li style="text-align: left; ">
+								Зайдите в меню &quot;Дополнительные настройки&quot; нажатием &quot;F5&quot; или &quot;Настройки &rarr; Дополнительные настройки&quot;.</li>
+							<li style="text-align: left; ">
+								Слева в меню перейдите в раздел &quot;Персональный файервол&quot;, в секции &quot;Режим фильтрации&quot; выберите &quot;Интерактивный режим&quot;.</li>
+							<li style="text-align: left; ">
+								Слева в меню перейдите в раздел &quot;Правила и зоны, в секции &quot;Редактор правил и зон&quot; нажмите кнопку &quot;Настройки&quot;.</li>
+							<li style="text-align: left; ">
+								Создайте правило для протокола &quot;IGMP&quot;: &quot;Имя&quot; - любое слово, &quot;Направление&quot; - любое, &quot;Действие&quot; - разрешить, &quot;Протокол&quot; - IGMP.</li>
+							<li style="text-align: left; ">
+								Везде нажмите &quot;ОК&quot; и закройте программу, она остается висеть в трее.</li>
+							<li style="text-align: left; ">
+								Запустите &quot;VLC плеер&quot; и &quot;NOD32&quot; попросит действие.</li>
+							<li style="text-align: left; ">
+								Поставьте галочку &quot;Запомнить действие(создать правило).</li>
+							<li style="text-align: left; ">
+								Откройте &quot;Расширенные параметры&quot; и нажмите кнопку &quot;Пользовательское правило&quot;: &quot;Направление&quot; - любое, &quot;Действие&quot; - разрешить.</li>
+							<li style="text-align: left; ">
+								Нажмите ОК.</li>
+						</ul>
+						<p style="text-align: left; ">
+							<b>Comodo Firewall</b></p>
+						<ul style="list-style-type: circle;">
+							<li style="text-align: left; ">
+								Защита &rarr; Монитор приложений: Укажите путь к VLC.exe, выберите &quot;Любой родитель&quot;, установите галочку &quot;Разрешить любые действия этому приложению&quot;</li>
+							<li style="text-align: left; ">
+								Защита &rarr; Сетевой монитор: Выберите &quot;Протокол: IP&quot;, перейдите на вкладку &quot;Детали IP&quot; и выберите &quot;Протокол IP: IGMP&quot;. Переместите новое правило на одну позицию выше, так, чтобы оно было до правила &quot;Блокировать и занести в журнал</li>
+						</ul>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>

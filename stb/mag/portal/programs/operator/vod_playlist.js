@@ -1,0 +1,24 @@
+//<!--
+var playlist = new Array();
+playlist[0] = ['172.17.24.14/1.ts','Luxe_HD',5491];
+//playlist[0] = ['172.17.24.10/Rambo_IV.ts','HD:Rambo IV, Full HD',5491];
+playlist[1] = ['172.17.24.14/Pixar.ts','SD:Pixar(test)',6963];
+playlist[2] = ['172.17.24.14/House.ts','House',5491];
+playlist[3] = ['172.17.24.14/Astrotizer2.ts','Astro',5491];
+playlist[4] = ['172.17.24.14/Samsung.ts','Samsung',5491];
+playlist[5] = ['172.17.24.14/Forsaj_4.ts','Форсаж 4',5491];
+playlist[6] = ['172.17.24.14/Taras_Bulba.ts','Taras Bulba',5491];
+playlist[7] = ['172.17.24.14/Shadow.ts','Тень',5491];
+playlist[8] = ['172.17.24.14/Perl_Harbor.ts','Перл Харбор',5491];
+playlist[9] = ['172.17.24.14/Hell.ts','Hellboy_2_otrivok_test',5491];
+playlist[10] = ['172.17.24.14/Slipknot.ts','Концерт Slipknot(42 min)',5491];
+playlist[11] = ['172.17.24.14/Valentin.ts','Мой кровавый Валентин',5491];
+playlist[12] = ['172.17.24.14/Obitaemyj_ostrov_Sxvatka.ts','Обитаемый остров:Схватка',5491];
+playlist[13] = ['172.17.24.14/Pivo.ts','Горькая правда о пиве',5491];
+playlist[14] = ['172.17.24.14/Vylkanu.ts','Планета земля-Вулканы',5491];
+playlist[15] = ['172.17.24.14/Atmosfera.ts','Планета земля-Атмосфера',5491];
+playlist[16] = ['172.17.24.14/Okean.ts','Планета земля-Океан',5491];
+playlist[17] = ['172.17.24.14/Led.ts','Планета земля-Лед',5491];
+playlist[18] = ['172.17.24.14/Unic_planeta.ts','Планета земля-Уникальная планета',5491];
+playlist[19] = ['172.17.24.14/adrenalin_2.ts','Адреналин 2',5491];
+//playlist[2] = ['172.17.24.10/Pixar_New_Car.ts.mpg','SD:Pixar (test)',6963];//-->

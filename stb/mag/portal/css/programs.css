@@ -1,0 +1,126 @@
+#back_button{
+    margin-left: 250px;
+    height: 50px;
+    background: transparent url("../images/button_back_bckg.png") no-repeat;
+} 
+#back_arrow{
+    position: fixed;
+    top: 500px;
+    left: 600px;
+    height: 50px;
+    background: #111111;
+    border: 2px solid #bababa;
+} 
+.main .valutaConteiner{
+    width: 400px;
+    text-align: center;
+    padding: 100px 0 0 150px;
+    text-align: center;
+}
+.main .valutaConteiner .valuta{
+    opacity: 0.9;
+    padding-bottom: 20px;
+    background-color: transparent;
+}
+.header{
+    padding: 8px;
+    border-bottom: 2px solid #bababa;
+    font-weight: bold;
+}
+.weatherBody{
+    width: 220px;
+    margin-right: 4px;
+    position: relative; 
+    text-align: center;
+    border: 2px solid transparent;
+    float: left;
+    height: 230px;
+    padding: 30px 5px 0 5px;
+    opacity: 0.5;
+}
+.weatherBodyActive{
+    opacity: 1;
+    height: 215px;
+    width: 220px;
+    margin-right: 4px;
+    position: relative; 
+    text-align: center;
+    border: 2px solid #bababa;
+	border-radius: 8px;
+    padding: 30px 5px 0 5px;
+    float: left;
+}
+.goroskopBody{
+    width: 600px;
+    margin-right: 4px;
+    position: relative; 
+    text-align: center;
+    border: 2px solid transparent;
+    float: left;
+    height: 220px;
+    padding: 30px 5px 0 5px;
+    visibility: hidden;
+}
+.goroskopBodyActive{
+    width: 600px;
+    margin-right: 4px;
+    position: relative; 
+    text-align: center;
+    border: 2px solid #bababa;
+    background: #111111 url("../images/goroskop_bckg.png") repeat-x;
+    height: 220px;
+    padding: 20px 5px 0 5px;
+    float: left;
+}
+.weatherBody span{
+    margin-bottom: 4px;
+}
+ul.dailyNews{
+    list-style: none;
+    position: relative;
+}
+li a{
+    text-decoration: none;
+    color: silver;
+}
+li.dailyNewsBlock{
+    font-size: 16px;
+    color: silver;
+    height: 24px;
+    border: 2px solid silver;
+    background: #111111;
+    padding: 4px;
+    margin-bottom: 2px;
+    overflow: hidden; 
+    opacity: 0.6;
+}
+
+li.dailyNewsBlockActive{
+    height: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #bababa;
+    background: #111111 url("../images/goroskop_bckg.png") repeat-x;
+    padding: 4px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    opacity: 1; 
+}
+li div.description{
+    font-weight: normal;
+    font-size: 16px;
+    text-indent: 1.5em;
+    border-top: 2px dotted #aeaeae;
+    margin-top: 8px;
+    padding: 8px;
+}
+.clearfix{
+	clear: both;
+}
+
+.disable{
+	opacity: 0.5;
+}
+.enable{
+	opacity: 1;
+}

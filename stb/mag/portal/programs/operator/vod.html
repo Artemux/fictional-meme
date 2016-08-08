@@ -1,0 +1,95 @@
+﻿<html>
+
+<head>
+	<title>VideoOnDemand</title>
+ 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script language="javascript" src="./js/DlinkApi.js"></script>
+	<script language="javascript" src="./js/keys.js"></script>
+	<script language="javascript" src="./js/playlist.js"></script>
+	<script language="javascript" src="./js/function.js"></script>
+	<script language="javascript" src="./js/VodPlayer.js"></script>
+	<link rel="stylesheet" type="text/css" href="./vod.css" />
+</head>
+
+<script>
+var Stb = new StbApi();
+var VodPlayer = new VodPlayer();
+
+
+window.onload = function() {
+	document.addEventListener("keypress", KeyHandler, false);
+	reklama('playlistGen');
+	setTimeout('timer(0)',1);
+	SetPlaylist(1);
+	Stb.Stop();
+	Stb.SetFull();
+	reklama(0);
+
+}
+
+window.onunload = function() {
+	Stb.Stop();
+	Stb.SetAlpha(10);	
+}	
+	
+
+</script>
+
+<body>
+<div id="global" style="visibility: visible;">
+<div class="main">
+	<div class="list">
+		<div class="list_block">
+			<div class="list_head" style="border-bottom: 1px dotted black; font-size:16px; text-align: center; margin:0;">Список фильмов</div>
+			<div id="list_body" class="list_body">
+			</div>
+			<div id="list_bottom" class="list_bottom" style="border-top: 1px dotted black; text-align: center; margin-top: 6px;"></div>
+		</div>
+	</div>
+	<div class="description">
+		<div id="description_block" class="description_block">
+			<span style="text-align:center;"><h1>На стадии разработки</h1></span>
+		</div>
+	</div>
+</div>
+<div class="bottom"><img src="./image/system/green_button.png" width="20px" height="20px"><span> Инструкция</span></div>
+</div>
+
+<div id="reklama" class="reklama" style="visibility:hidden;"></div>
+
+<div id="system" style="visibility:hidden; display:block; width: 700px; height: 70px; position: absolute; bottom: 20px; text-align: center;">
+	<div id="box" style="position: absolute; display: block; left: 130px;">
+		<div class="raised">
+			<b class="b1"></b>
+			<b class="b2"></b>
+			<b class="b3"></b>
+			<b class=\"b4\"></b>
+				<div class="boxcontent">
+					<b style="font-size: 16px; font-weight: bold; display: block;">Vod Player</b>
+					<div id="control">
+						<div id="play" style="float: left;" class="play_noactive">Play</div>
+						<div id="pause" style="float: left;" class="pause_noactive">Pause</div>
+						<div id="FF" style="float: left;" class="pause_noactive"><bolt>>></bolt></div>
+						<div id="REV" style="float: left;" class="pause_noactive"><b><<</b></div>
+					</div>
+				
+					<table border="0" style="clear: left; left: 150px;">
+						<tbody>
+							<tr>
+								<td style="border-right: 1px solid silver; width: 60px; text-align: center;" ><div id="time" class="time"></div></td>
+								<td width="300px" ><div id="ProgressBar" class="ProgressBar" style="background-color: #b7b7b7; height: 15px; position: relative; border-left: 0px solid #3a7dda;"></div></td>
+								<td style="border-left: 1px solid silver; width: 60px; text-align: center"><div id="stop_time" class="time"></div></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			<b class="b4b"></b>
+			<b class="b3b"></b>
+			<b class="b2b"></b>
+			<b class="b1b"></b>
+		</div>
+	</div>
+</div>
+	
+</body>
+</html>

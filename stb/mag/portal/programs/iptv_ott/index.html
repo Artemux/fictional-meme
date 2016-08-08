@@ -1,0 +1,72 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+
+    <script type="text/javascript" src="../js_lib/MagApi.js"></script>
+    <script type="text/javascript" src="PageMenu.js"></script>
+    <script type="text/javascript" src="PageMenuEx.js"></script>
+    <script type="text/javascript" src="Status.js"></script>
+    <script type="text/javascript" src="Channel.js"></script>
+    <script type="text/javascript" src="Checker.js"></script>
+    <script type="text/javascript" src="timer.js"></script>
+    <script type="text/javascript" src="../js_lib/PlayerSettings.js"></script>
+    <script type="text/javascript" src="../js_lib/operator.js"></script>
+    <script type="text/javascript" src="../js_lib/event.js"></script>
+    <script type="text/javascript" src="../js_lib/jquery-1.5.min.js"></script>
+    <script type="text/javascript" src="../js_lib/StbObjects.js"></script>
+    <script type="text/javascript" src="../js_lib/StbStalkerParser.js"></script>
+    <script type="text/javascript" src="../js_lib/StbStalkerClient.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <title></title>
+</head>
+<body>
+<div id="ChanNameDiv"></div>
+<i></i>
+<div id="TopLine">&nbsp;</div>
+<div id="ClockDiv"></div>
+<div id="ChanNumDiv"></div>
+<div id="AudioPIDs" class="statusclass" style="top:27px;left: 220px; z-index:1; color: white;"></div>
+<div id="NewsDiv" class="statusclass" style="top:509px;left:0px; height: 50px; width: 640px; padding: 10px 40px 10px 40px; visibility: hidden;"></div>
+
+<div id="BottomDiv"></div>
+<div class="menuclass" id="MainMenu" style="z-index: 10;"></div>
+<div class="menuclass" id="Fav1Menu"></div>
+<div class="menuclass" id="Fav2Menu"></div>
+<div class="menuclass" id="Fav3Menu"></div>
+<div id="NewsBlock"
+     style="z-index: 999; border-top: 2px solid #dddddd; border-bottom: 2px solid #dddddd; display: none; color: white; background-color: #111111; font-size: 18px; padding: 20px 140px 20px 60px;top: 70px; left: 0px; width: 600px; height: 400px; position: fixed;"></div>
+<div id="video_settings" style=" display: none; color: white; width: 300px; height: 200px; top: 170px; left: 200px; position: absolute; background: url(./images/settings.png) no-repeat;">
+    <div class="video_settings_block" style="padding: 45px 10px 10px 22px; display: block;">
+        <div id="aspect" onfocus="setVideoParam('aspect');" onclick="videoSettings('aspect')" class="settingElement"></div>
+        <div id="content" onfocus="setVideoParam('content');" onclick="videoSettings('content')" class="settingElement"></div>
+        <div id="audio" onfocus="setVideoParam('audio');" onclick="videoSettings('audio')" class="settingElement"></div>
+    </div>
+</div>
+<div id="timerDiv" style="display: none; position: fixed; top:200px; left: 210px; font-size: 18px; width: 300px; background: #111111 url(./images/timer_bckg.png) repeat-x;">
+    <div style="color: white; text-align: center; font-size: 28px; margin: 20px 0 0 0; padding: 0;">ТАЙМЕР
+        <div id='timerStatus' style="display: inline;"></div>
+    </div>
+    <div style="display: table;">
+        <div style="display: table-row; height: 12px;"></div>
+        <div style="display: table-row;letter-spacing:16px;">
+            <div id="hour" class="timer" style="font-size: 44px; padding-left: 60px; padding-top: 7px; display: table-cell;"></div>
+            <div id="minute" class="timerActive" style="font-size: 44px;  padding-left: 36px; padding-top: 7px; width: 150px; display: table-cell;"></div>
+        </div>
+    </div>
+    <div id="timerButton" style="text-align: center; color: white; padding: 5px 2px; border: 2px solid #999999; margin: 10px 20px; background: #333333 url(./images/timer_button.png) repeat-x;"></div>
+</div>
+<div id="EpgFull"></div>
+<div id="Muted" style="display: none; position: fixed; top: 50%; left: 50%; margin: -64px 0 0 -64px;"><img title="" alt="" src="./images/muted.png"/></div>
+<div id="VolumeBlock" style="z-index: 999; float: right; overflow: hidden; width: 5%; height: 560px;">
+    <div id="Volume" style="margin-top: 50px; width: 100%; height: 400px;">
+    </div>
+</div>
+<div id="alert" style="display:none; position: fixed; top:250px; left: 230px; width: 300px; height: 102px; background: transparent url(./images/alert.png) no-repeat;">
+    <div style="font-size: 18px; text-align: center; margin-top: 30px; margin-left: 20px;">НЕТ ОПЛАТЫ!</div>
+</div>
+<iframe id="iframe1" style="display: none; opacity: 0.75; text-align:center; position: absolute; top: 440px;width:99%;background-color: silver; border: 0px solid black; color: white;"></iframe>
+</body>
+</html>

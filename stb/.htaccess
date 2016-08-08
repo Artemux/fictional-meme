@@ -1,0 +1,13 @@
+Order Allow,Deny
+Allow from 192.168.
+Allow from 172.17.
+Allow from 172.18.
+Allow from 172.19.
+Allow from 172.16.
+Allow from 10.10.
+Allow from 10.11.
+Allow from 213.231.0.0/18 194.143.136.0/23 46.250.0.0/19 109.200.224.0/19 
+#Allow from 193.39.118.8 91.199.245.198 
+#Onetelecom
+Allow from 195.26.64.98
+

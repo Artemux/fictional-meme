@@ -1,0 +1,2630 @@
+11-Jun-2013 12:48:16 - EPG - Parsing EPG from downloaded page http://192.168.1.100/dlink2/data/epgArchive/2013-06-11.epg100ТВ-Array
+(
+)
+
+24 ДОК-Array
+(
+    [0] => Array
+        (
+            [id] => 400
+        )
+
+)
+
+24Техно-Array
+(
+    [0] => Array
+        (
+            [id] => 183
+        )
+
+)
+
+2х2-Array
+(
+    [0] => Array
+        (
+            [id] => 201
+        )
+
+)
+
+365 дней ТВ-Array
+(
+    [0] => Array
+        (
+            [id] => 97
+        )
+
+)
+
+5 Канал СПБ-Array
+(
+    [0] => Array
+        (
+            [id] => 27
+        )
+
+)
+
+Disney-Array
+(
+    [0] => Array
+        (
+            [id] => 48
+        )
+
+)
+
+Amazing life-Array
+(
+)
+
+Bridge TV-Array
+(
+)
+
+CNL Сибирь-Array
+(
+)
+
+Galaxy-TV-Array
+(
+)
+
+HD Кино-Array
+(
+)
+
+HD Спорт-Array
+(
+)
+
+HD Life-Array
+(
+    [0] => Array
+        (
+            [id] => 370
+        )
+
+)
+
+Пятница-Array
+(
+    [0] => Array
+        (
+            [id] => 79
+        )
+
+)
+
+Пятница (+2)-Array
+(
+)
+
+Пятница (+4)-Array
+(
+)
+
+Пятница (+7)-Array
+(
+)
+
+RUSSIAN MUSICBOX-Array
+(
+)
+
+MUSICBOX-Array
+(
+)
+
+Баскетбол-Array
+(
+    [0] => Array
+        (
+            [id] => 55
+        )
+
+)
+
+Ocean TV-Array
+(
+)
+
+PRO Business-Array
+(
+)
+
+RTG TV-Array
+(
+    [0] => Array
+        (
+            [id] => 36
+        )
+
+)
+
+RU.TV-Array
+(
+)
+
+Russia Today-Array
+(
+    [0] => Array
+        (
+            [id] => 42
+        )
+
+)
+
+Style-Array
+(
+)
+
+Teen TV-Array
+(
+)
+
+Teen TV (+3)-Array
+(
+)
+
+ZooПарк-Array
+(
+    [0] => Array
+        (
+            [id] => 249
+        )
+
+)
+
+Авто Плюс-Array
+(
+    [0] => Array
+        (
+            [id] => 99
+        )
+
+)
+
+Боец-Array
+(
+    [0] => Array
+        (
+            [id] => 65
+        )
+
+)
+
+STV-Array
+(
+    [0] => Array
+        (
+            [id] => 100
+        )
+
+)
+
+Россия 24-Array
+(
+    [0] => Array
+        (
+            [id] => 33
+        )
+
+)
+
+Вопросы и ответы-Array
+(
+    [0] => Array
+        (
+            [id] => 267
+        )
+
+)
+
+Время-Array
+(
+    [0] => Array
+        (
+            [id] => 270
+        )
+
+)
+
+РазТВ-Array
+(
+)
+
+Детский-Array
+(
+    [0] => Array
+        (
+            [id] => 185
+        )
+
+)
+
+Дом кино-Array
+(
+    [0] => Array
+        (
+            [id] => 259
+        )
+
+)
+
+Домашние животные-Array
+(
+    [0] => Array
+        (
+            [id] => 253
+        )
+
+)
+
+Домашний-Array
+(
+    [0] => Array
+        (
+            [id] => 135
+        )
+
+)
+
+Домашний (+2)-Array
+(
+)
+
+Домашний (+4)-Array
+(
+)
+
+Домашний (+7)-Array
+(
+)
+
+Драйв-Array
+(
+    [0] => Array
+        (
+            [id] => 179
+        )
+
+)
+
+Перец-Array
+(
+    [0] => Array
+        (
+            [id] => 245
+        )
+
+)
+
+Перец (+2)-Array
+(
+)
+
+Перец (+7)-Array
+(
+)
+
+Еврокино-Array
+(
+    [0] => Array
+        (
+            [id] => 188
+        )
+
+)
+
+Живи-Array
+(
+    [0] => Array
+        (
+            [id] => 200
+        )
+
+)
+
+Закон ТВ-Array
+(
+    [0] => Array
+        (
+            [id] => 402
+        )
+
+)
+
+Звезда-Array
+(
+    [0] => Array
+        (
+            [id] => 35
+        )
+
+)
+
+Звезда (+2)-Array
+(
+)
+
+Звезда (+3)-Array
+(
+)
+
+Звезда (+7)-Array
+(
+)
+
+Здоровое ТВ-Array
+(
+    [0] => Array
+        (
+            [id] => 181
+        )
+
+)
+
+Знание-Array
+(
+)
+
+Зоо ТВ-Array
+(
+)
+
+Иллюзион+-Array
+(
+    [0] => Array
+        (
+            [id] => 248
+        )
+
+)
+
+Индия ТВ-Array
+(
+    [0] => Array
+        (
+            [id] => 106
+        )
+
+)
+
+Интересное ТВ-Array
+(
+    [0] => Array
+        (
+            [id] => 98
+        )
+
+)
+
+Кино Плюс-Array
+(
+    [0] => Array
+        (
+            [id] => 217
+        )
+
+)
+
+Кинопоказ-Array
+(
+)
+
+Кинопоказ (+3)-Array
+(
+)
+
+Кинопоказ HD1-Array
+(
+)
+
+Кинопоказ HD2-Array
+(
+)
+
+КИНО СОЮЗ-Array
+(
+    [0] => Array
+        (
+            [id] => 45
+        )
+
+)
+
+Комеди ТВ-Array
+(
+    [0] => Array
+        (
+            [id] => 136
+        )
+
+)
+
+Комедия ТВ-Array
+(
+    [0] => Array
+        (
+            [id] => 105
+        )
+
+)
+
+Кто есть кто-Array
+(
+    [0] => Array
+        (
+            [id] => 96
+        )
+
+)
+
+Культура Россия-Array
+(
+    [0] => Array
+        (
+            [id] => 32
+        )
+
+)
+
+Культура (+2)-Array
+(
+)
+
+Культура (+4)-Array
+(
+)
+
+Культура (+7)-Array
+(
+)
+
+Кухня ТВ-Array
+(
+    [0] => Array
+        (
+            [id] => 46
+        )
+
+)
+
+КХЛ ТВ-Array
+(
+)
+
+Наше любимое кино-Array
+(
+    [0] => Array
+        (
+            [id] => 384
+        )
+
+)
+
+Ля-минор-Array
+(
+    [0] => Array
+        (
+            [id] => 114
+        )
+
+)
+
+Мать и дитя-Array
+(
+    [0] => Array
+        (
+            [id] => 289
+        )
+
+)
+
+Мир-Array
+(
+    [0] => Array
+        (
+            [id] => 28
+        )
+
+)
+
+МирТВ (+3)-Array
+(
+)
+
+Много ТВ-Array
+(
+    [0] => Array
+        (
+            [id] => 107
+        )
+
+)
+
+Ю ТВ-Array
+(
+    [0] => Array
+        (
+            [id] => 262
+        )
+
+)
+
+Музыка Первого-Array
+(
+)
+
+Наше кино-Array
+(
+    [0] => Array
+        (
+            [id] => 401
+        )
+
+)
+
+Новое Кино-Array
+(
+    [0] => Array
+        (
+            [id] => 109
+        )
+
+)
+
+Ностальгия-Array
+(
+    [0] => Array
+        (
+            [id] => 37
+        )
+
+)
+
+Ночной клуб-Array
+(
+)
+
+Ночной клуб (+3)-Array
+(
+)
+
+НСТВ (Страшное)-Array
+(
+    [0] => Array
+        (
+            [id] => 187
+        )
+
+)
+
+НТВ-Array
+(
+)
+
+НТВ (+2)-Array
+(
+)
+
+НТВ (+3)-Array
+(
+)
+
+НТВ (+4)-Array
+(
+)
+
+НТВ (+7)-Array
+(
+)
+
+Киноклуб-Array
+(
+    [0] => Array
+        (
+            [id] => 416
+        )
+
+)
+
+Кинохит-Array
+(
+    [0] => Array
+        (
+            [id] => 414
+        )
+
+)
+
+Наш футбол-Array
+(
+    [0] => Array
+        (
+            [id] => 58
+        )
+
+)
+
+Премьера-Array
+(
+    [0] => Array
+        (
+            [id] => 415
+        )
+
+)
+
+Спорт-Array
+(
+    [0] => Array
+        (
+            [id] => 127
+        )
+
+)
+
+НТВ+ Спорт Онлайн-Array
+(
+)
+
+Спорт союз-Array
+(
+    [0] => Array
+        (
+            [id] => 391
+        )
+
+)
+
+Теннис-Array
+(
+    [0] => Array
+        (
+            [id] => 56
+        )
+
+)
+
+Футбол-Array
+(
+    [0] => Array
+        (
+            [id] => 126
+        )
+
+)
+
+НТВ МИР-Array
+(
+    [0] => Array
+        (
+            [id] => 22
+        )
+
+)
+
+О2ТВ-Array
+(
+)
+
+Охота и рыбалка-Array
+(
+    [0] => Array
+        (
+            [id] => 180
+        )
+
+)
+
+Охотник и рыболов-Array
+(
+)
+
+Парк развлечений-Array
+(
+    [0] => Array
+        (
+            [id] => 298
+        )
+
+)
+
+Первый канал (+2)-Array
+(
+)
+
+Первый канал (+4)-Array
+(
+)
+
+Первый канал (+6)-Array
+(
+)
+
+Первый канал (+8)-Array
+(
+)
+
+Первый канал-Array
+(
+    [0] => Array
+        (
+            [id] => 23
+        )
+
+)
+
+Первый канал (Россия) Европа-Array
+(
+)
+
+Первый канал (Россия) СНГ-Array
+(
+)
+
+Первый (ОРТ Украина)-Array
+(
+    [0] => Array
+        (
+            [id] => 359
+        )
+
+)
+
+Психология21-Array
+(
+    [0] => Array
+        (
+            [id] => 254
+        )
+
+)
+
+РБК-Array
+(
+    [0] => Array
+        (
+            [id] => 38
+        )
+
+)
+
+РЕН-Array
+(
+    [0] => Array
+        (
+            [id] => 24
+        )
+
+)
+
+РЕН ТВ (+2)-Array
+(
+)
+
+РЕН ТВ (+4)-Array
+(
+)
+
+РЕН ТВ (+7)-Array
+(
+)
+
+Ретро-Array
+(
+    [0] => Array
+        (
+            [id] => 178
+        )
+
+)
+
+Россия 1-Array
+(
+    [0] => Array
+        (
+            [id] => 31
+        )
+
+)
+
+Россия 1 (+2)-Array
+(
+)
+
+Россия 1 (+4)-Array
+(
+)
+
+Россия 1 (+6)-Array
+(
+)
+
+Россия 1 (+8)-Array
+(
+)
+
+РТР-Планета Европа-Array
+(
+)
+
+РТР-Планета-Array
+(
+    [0] => Array
+        (
+            [id] => 381
+        )
+
+)
+
+Русская ночь-Array
+(
+)
+
+Русский иллюзион-Array
+(
+    [0] => Array
+        (
+            [id] => 184
+        )
+
+)
+
+Русский экстрим-Array
+(
+    [0] => Array
+        (
+            [id] => 59
+        )
+
+)
+
+Сарафан-Array
+(
+    [0] => Array
+        (
+            [id] => 213
+        )
+
+)
+
+Первый образовательный-Array
+(
+)
+
+Совершенно секретно-Array
+(
+    [0] => Array
+        (
+            [id] => 297
+        )
+
+)
+
+Союз-Array
+(
+    [0] => Array
+        (
+            [id] => 153
+        )
+
+)
+
+Спас-Array
+(
+    [0] => Array
+        (
+            [id] => 403
+        )
+
+)
+
+Спорт Плюс-Array
+(
+    [0] => Array
+        (
+            [id] => 212
+        )
+
+)
+
+Москва-24-Array
+(
+)
+
+Страна-Array
+(
+    [0] => Array
+        (
+            [id] => 367
+        )
+
+)
+
+СТС-Array
+(
+    [0] => Array
+        (
+            [id] => 26
+        )
+
+)
+
+СТС (+2)-Array
+(
+)
+
+СТС (+4)-Array
+(
+)
+
+СТС (+7)-Array
+(
+)
+
+ТВ Клуб-Array
+(
+)
+
+ТВ Центр-Array
+(
+)
+
+ТВ Центр (+2)-Array
+(
+)
+
+ТВ Центр (+4)-Array
+(
+)
+
+ТВ Центр (+7)-Array
+(
+)
+
+ТВ Центр Int-Array
+(
+    [0] => Array
+        (
+            [id] => 30
+        )
+
+)
+
+ТВ3-Array
+(
+    [0] => Array
+        (
+            [id] => 116
+        )
+
+)
+
+тв3 Россия (+2)-Array
+(
+)
+
+тв3 Россия (+7)-Array
+(
+)
+
+ТДК-Array
+(
+    [0] => Array
+        (
+            [id] => 102
+        )
+
+)
+
+Telecafe-Array
+(
+    [0] => Array
+        (
+            [id] => 269
+        )
+
+)
+
+Телепутешествия-Array
+(
+)
+
+Телепутешествия HD-Array
+(
+)
+
+ТНВ-Татарстан-Array
+(
+)
+
+ТНТ-Array
+(
+    [0] => Array
+        (
+            [id] => 25
+        )
+
+)
+
+ТНТ (+2)-Array
+(
+)
+
+ТНТ (+4)-Array
+(
+)
+
+ТНТ (+7)-Array
+(
+)
+
+Тонус ТВ-Array
+(
+)
+
+ТРО-Array
+(
+    [0] => Array
+        (
+            [id] => 255
+        )
+
+)
+
+Улыбка ребенка-Array
+(
+)
+
+Усадьба-Array
+(
+    [0] => Array
+        (
+            [id] => 182
+        )
+
+)
+
+Феникс+Кино-Array
+(
+    [0] => Array
+        (
+            [id] => 192
+        )
+
+)
+
+Футбол (Россия)-Array
+(
+)
+
+Югра-Array
+(
+)
+
+ЮМОР BOX-Array
+(
+)
+
+1+1-Array
+(
+    [0] => Array
+        (
+            [id] => 4
+        )
+
+)
+
+1+1 Международный-Array
+(
+)
+
+NEWS 24-Array
+(
+    [0] => Array
+        (
+            [id] => 113
+        )
+
+)
+
+5 Канал Украина-Array
+(
+    [0] => Array
+        (
+            [id] => 11
+        )
+
+)
+
+BizTV-Array
+(
+)
+
+English club HD-Array
+(
+    [0] => Array
+        (
+            [id] => 411
+        )
+
+)
+
+Пиксель ТВ-Array
+(
+    [0] => Array
+        (
+            [id] => 67
+        )
+
+)
+
+Enter-фильм-Array
+(
+    [0] => Array
+        (
+            [id] => 103
+        )
+
+)
+
+ICTV-Array
+(
+    [0] => Array
+        (
+            [id] => 207
+        )
+
+)
+
+Maxxi-TV-Array
+(
+    [0] => Array
+        (
+            [id] => 173
+        )
+
+)
+
+Zoom-Array
+(
+    [0] => Array
+        (
+            [id] => 78
+        )
+
+)
+
+MusicBox UA-Array
+(
+    [0] => Array
+        (
+            [id] => 242
+        )
+
+)
+
+NewsOne-Array
+(
+    [0] => Array
+        (
+            [id] => 170
+        )
+
+)
+
+OTV-Array
+(
+    [0] => Array
+        (
+            [id] => 66
+        )
+
+)
+
+Pro Все-Array
+(
+    [0] => Array
+        (
+            [id] => 305
+        )
+
+)
+
+Real Estate TV-Array
+(
+    [0] => Array
+        (
+            [id] => 240
+        )
+
+)
+
+Ru Music-Array
+(
+    [0] => Array
+        (
+            [id] => 146
+        )
+
+)
+
+StarTV-Array
+(
+    [0] => Array
+        (
+            [id] => 68
+        )
+
+)
+
+Бабай ТБ-Array
+(
+)
+
+Гамма-Array
+(
+    [0] => Array
+        (
+            [id] => 189
+        )
+
+)
+
+Глас-Array
+(
+    [0] => Array
+        (
+            [id] => 8
+        )
+
+)
+
+Гумор ТБ-Array
+(
+)
+
+ГУМОР / БАБАЙ-Array
+(
+    [0] => Array
+        (
+            [id] => 241
+        )
+
+)
+
+Днепропетровский Державный-Array
+(
+)
+
+Донбасс-Array
+(
+)
+
+Интер-Array
+(
+    [0] => Array
+        (
+            [id] => 205
+        )
+
+)
+
+Интер+-Array
+(
+)
+
+К1-Array
+(
+    [0] => Array
+        (
+            [id] => 286
+        )
+
+)
+
+К2-Array
+(
+    [0] => Array
+        (
+            [id] => 287
+        )
+
+)
+
+Центральный канал-Array
+(
+)
+
+Киев-Array
+(
+)
+
+КРТ-Array
+(
+    [0] => Array
+        (
+            [id] => 9
+        )
+
+)
+
+2+2-Array
+(
+    [0] => Array
+        (
+            [id] => 104
+        )
+
+)
+
+QTV-Array
+(
+    [0] => Array
+        (
+            [id] => 64
+        )
+
+)
+
+Культура (Украина)-Array
+(
+    [0] => Array
+        (
+            [id] => 354
+        )
+
+)
+
+М1-Array
+(
+    [0] => Array
+        (
+            [id] => 69
+        )
+
+)
+
+М2-Эстрада-Array
+(
+    [0] => Array
+        (
+            [id] => 70
+        )
+
+)
+
+Малятко TV-Array
+(
+    [0] => Array
+        (
+            [id] => 195
+        )
+
+)
+
+Мега-Array
+(
+    [0] => Array
+        (
+            [id] => 285
+        )
+
+)
+
+МЕНЮ-ТВ-Array
+(
+    [0] => Array
+        (
+            [id] => 19
+        )
+
+)
+
+Новый канал-Array
+(
+    [0] => Array
+        (
+            [id] => 5
+        )
+
+)
+
+НТН-Array
+(
+    [0] => Array
+        (
+            [id] => 226
+        )
+
+)
+
+Первый автомобильный-Array
+(
+    [0] => Array
+        (
+            [id] => 119
+        )
+
+)
+
+Первый деловой-Array
+(
+    [0] => Array
+        (
+            [id] => 13
+        )
+
+)
+
+Перший-Array
+(
+    [0] => Array
+        (
+            [id] => 204
+        )
+
+)
+
+Первый национальный / ТРК "Эра"-Array
+(
+)
+
+Плюс Плюс-Array
+(
+    [0] => Array
+        (
+            [id] => 199
+        )
+
+)
+
+Спорт 1-Array
+(
+    [0] => Array
+        (
+            [id] => 246
+        )
+
+)
+
+Спорт 2-Array
+(
+    [0] => Array
+        (
+            [id] => 250
+        )
+
+)
+
+СТБ-Array
+(
+    [0] => Array
+        (
+            [id] => 6
+        )
+
+)
+
+ТВi-Array
+(
+    [0] => Array
+        (
+            [id] => 7
+        )
+
+)
+
+ТЕТ-Array
+(
+    [0] => Array
+        (
+            [id] => 10
+        )
+
+)
+
+Тиса-1-Array
+(
+)
+
+Тонис-Array
+(
+    [0] => Array
+        (
+            [id] => 118
+        )
+
+)
+
+ТРК "Эра"-Array
+(
+)
+
+УБР-Array
+(
+    [0] => Array
+        (
+            [id] => 171
+        )
+
+)
+
+Украина-Array
+(
+    [0] => Array
+        (
+            [id] => 206
+        )
+
+)
+
+ТВ-100 -- Business-Array
+(
+    [0] => Array
+        (
+            [id] => 377
+        )
+
+)
+
+ТРК Футбол-Array
+(
+    [0] => Array
+        (
+            [id] => 82
+        )
+
+)
+
+Che-Pe.info-Array
+(
+    [0] => Array
+        (
+            [id] => 303
+        )
+
+)
+
+AB Moteurs-Array
+(
+)
+
+Adult channel-Array
+(
+)
+
+Al Jazeera-Array
+(
+    [0] => Array
+        (
+            [id] => 86
+        )
+
+)
+
+Animal planet Europe-Array
+(
+)
+
+Animal planet Россия-Array
+(
+    [0] => Array
+        (
+            [id] => 93
+        )
+
+)
+
+Sony Sci Fi-Array
+(
+    [0] => Array
+        (
+            [id] => 133
+        )
+
+)
+
+BabyTV-Array
+(
+)
+
+BBC Entertainment-Array
+(
+)
+
+BBC World-Array
+(
+    [0] => Array
+        (
+            [id] => 41
+        )
+
+)
+
+Bloomberg-Array
+(
+)
+
+Blue Hustler-Array
+(
+)
+
+Boomerang-Array
+(
+)
+
+C Music TV-Array
+(
+)
+
+Cartoon network-Array
+(
+)
+
+CCTV Русский-Array
+(
+    [0] => Array
+        (
+            [id] => 271
+        )
+
+)
+
+CNBC Europe-Array
+(
+    [0] => Array
+        (
+            [id] => 230
+        )
+
+)
+
+CNL-Array
+(
+    [0] => Array
+        (
+            [id] => 408
+        )
+
+)
+
+CNL Украина-Array
+(
+)
+
+CNN International-Array
+(
+    [0] => Array
+        (
+            [id] => 39
+        )
+
+)
+
+Deutsche Welle-Array
+(
+)
+
+Discovery HD Showcase-Array
+(
+)
+
+Discovery Science-Array
+(
+    [0] => Array
+        (
+            [id] => 89
+        )
+
+)
+
+Discovery World-Array
+(
+    [0] => Array
+        (
+            [id] => 88
+        )
+
+)
+
+Discovery Восточная Европа-Array
+(
+)
+
+Discovery Россия-Array
+(
+    [0] => Array
+        (
+            [id] => 87
+        )
+
+)
+
+ESPN Classic-Array
+(
+)
+
+Euronews-Array
+(
+    [0] => Array
+        (
+            [id] => 1
+        )
+
+)
+
+Eurosport-Array
+(
+    [0] => Array
+        (
+            [id] => 61
+        )
+
+)
+
+Eurosport 2-Array
+(
+    [0] => Array
+        (
+            [id] => 62
+        )
+
+)
+
+Eurosport HD-Array
+(
+    [0] => Array
+        (
+            [id] => 396
+        )
+
+)
+
+Extreme sports-Array
+(
+)
+
+Fashion TV Europe-Array
+(
+)
+
+Fashion TV-Array
+(
+    [0] => Array
+        (
+            [id] => 63
+        )
+
+)
+
+FOX-Array
+(
+    [0] => Array
+        (
+            [id] => 190
+        )
+
+)
+
+Fox Life-Array
+(
+    [0] => Array
+        (
+            [id] => 191
+        )
+
+)
+
+France 24-Array
+(
+    [0] => Array
+        (
+            [id] => 389
+        )
+
+)
+
+FTV HD-Array
+(
+)
+
+Gulli-Array
+(
+    [0] => Array
+        (
+            [id] => 308
+        )
+
+)
+
+DIVA Universal-Array
+(
+    [0] => Array
+        (
+            [id] => 419
+        )
+
+)
+
+Hustler TV Europe-Array
+(
+)
+
+JimJam-Array
+(
+)
+
+KidsCo-Array
+(
+)
+
+Luxe.TV-Array
+(
+)
+
+Luxe.TV HD-Array
+(
+)
+
+MCM Top-Array
+(
+    [0] => Array
+        (
+            [id] => 77
+        )
+
+)
+
+Mezzo-Array
+(
+    [0] => Array
+        (
+            [id] => 74
+        )
+
+)
+
+MGM Int.-Array
+(
+    [0] => Array
+        (
+            [id] => 399
+        )
+
+)
+
+MTV Dance-Array
+(
+    [0] => Array
+        (
+            [id] => 80
+        )
+
+)
+
+MTV European-Array
+(
+)
+
+MTV Hits-Array
+(
+    [0] => Array
+        (
+            [id] => 349
+        )
+
+)
+
+MTV ROCKS-Array
+(
+    [0] => Array
+        (
+            [id] => 296
+        )
+
+)
+
+MTV Live HD-Array
+(
+    [0] => Array
+        (
+            [id] => 388
+        )
+
+)
+
+myZen.tv-Array
+(
+)
+
+myZen.tv HD-Array
+(
+)
+
+Nat Geo Wild-Array
+(
+    [0] => Array
+        (
+            [id] => 92
+        )
+
+)
+
+National Geographic HD-Array
+(
+)
+
+National Geo-Array
+(
+    [0] => Array
+        (
+            [id] => 91
+        )
+
+)
+
+Nickelodeon-Array
+(
+    [0] => Array
+        (
+            [id] => 51
+        )
+
+)
+
+Playboy TV UK-Array
+(
+)
+
+Private Spice-Array
+(
+)
+
+R1-Array
+(
+)
+
+RTVI-Array
+(
+    [0] => Array
+        (
+            [id] => 382
+        )
+
+)
+
+SET-Array
+(
+    [0] => Array
+        (
+            [id] => 193
+        )
+
+)
+
+Spice-Array
+(
+)
+
+TCM-Array
+(
+)
+
+TiJi-Array
+(
+    [0] => Array
+        (
+            [id] => 309
+        )
+
+)
+
+Trace Urban-Array
+(
+)
+
+Travel-Array
+(
+    [0] => Array
+        (
+            [id] => 363
+        )
+
+)
+
+TV1000 Action East-Array
+(
+)
+
+TV1000 Action East (-21)-Array
+(
+)
+
+TV1000 East-Array
+(
+)
+
+TV1000 Русское кино-Array
+(
+)
+
+TV5 Monde Europe-Array
+(
+    [0] => Array
+        (
+            [id] => 40
+        )
+
+)
+
+Universal-Array
+(
+    [0] => Array
+        (
+            [id] => 405
+        )
+
+)
+
+VH1 Classic-Array
+(
+    [0] => Array
+        (
+            [id] => 72
+        )
+
+)
+
+VH1-Array
+(
+    [0] => Array
+        (
+            [id] => 295
+        )
+
+)
+
+Viasat Explorer Россия-Array
+(
+)
+
+Viasat Explorer CEE / Spice-Array
+(
+)
+
+Viasat History-Array
+(
+)
+
+Viasat Sport Россия-Array
+(
+)
+
+World Fashion Channel-Array
+(
+)
+
+World Fashion Channel Россия-Array
+(
+)
+
+XXL-Array
+(
+)
+
+ZeeTV Россия-Array
+(
+)
+
+Fine Living-Array
+(
+)
+
+CBS Reality-Array
+(
+)
+
+CBS Drama-Array
+(
+)
+
+Детский мир-Array
+(
+)
+
+Детский мир / Телеклуб-Array
+(
+    [0] => Array
+        (
+            [id] => 383
+        )
+
+)
+
+Израиль+ Россия-Array
+(
+)
+
+Киномания-Array
+(
+)
+
+Мультимания-Array
+(
+    [0] => Array
+        (
+            [id] => 52
+        )
+
+)
+
+Наше кино-Array
+(
+    [0] => Array
+        (
+            [id] => 401
+        )
+
+)
+
+ТВ XXI-Array
+(
+    [0] => Array
+        (
+            [id] => 186
+        )
+
+)
+
+Телеклуб-Array
+(
+)
+
+Беларусь 24-Array
+(
+)
+
+BTB-Array
+(
+    [0] => Array
+        (
+            [id] => 263
+        )
+
+)
+
+СТВ-Array
+(
+)
+
+ГЛАS-Array
+(
+    [0] => Array
+        (
+            [id] => 228
+        )
+
+)
+
+Карусель-Array
+(
+    [0] => Array
+        (
+            [id] => 54
+        )
+
+)
+
+КиноЛюкс-Array
+(
+    [0] => Array
+        (
+            [id] => 417
+        )
+
+)
+
+Спорт 1 (Россия)-Array
+(
+    [0] => Array
+        (
+            [id] => 117
+        )
+
+)
+
+Fashion One-Array
+(
+)
+
+MCM Pop-Array
+(
+)
+
+Nickelodeon HD-Array
+(
+    [0] => Array
+        (
+            [id] => 385
+        )
+
+)
+
+Travel channel HD-Array
+(
+    [0] => Array
+        (
+            [id] => 362
+        )
+
+)
+
+Унiан-Array
+(
+    [0] => Array
+        (
+            [id] => 274
+        )
+
+)
+
+Россия 2(TEST)-Array
+(
+    [0] => Array
+        (
+            [id] => 60
+        )
+
+)
+
+Nat Geo Wild HD-Array
+(
+)
+
+Nat Geo Wild Россия-Array
+(
+)
+
+Nickelodeon junior-Array
+(
+    [0] => Array
+        (
+            [id] => 155
+        )
+
+)
+
+Наука 2.0-Array
+(
+    [0] => Array
+        (
+            [id] => 94
+        )
+
+)
+
+EUROPA Plus TV-Array
+(
+    [0] => Array
+        (
+            [id] => 101
+        )
+
+)
+
+Погода ТВ-Array
+(
+    [0] => Array
+        (
+            [id] => 198
+        )
+
+)
+
+Страна советов-Array
+(
+    [0] => Array
+        (
+            [id] => 227
+        )
+
+)
+
+8 канал-Array
+(
+    [0] => Array
+        (
+            [id] => 424
+        )
+
+)
+
+Моя планета-Array
+(
+    [0] => Array
+        (
+            [id] => 292
+        )
+
+)
+
+Investigation Discovery-Array
+(
+    [0] => Array
+        (
+            [id] => 335
+        )
+
+)
+
+Da Vinci Learning-Array
+(
+    [0] => Array
+        (
+            [id] => 341
+        )
+
+)
+
+Моя дитина-Array
+(
+    [0] => Array
+        (
+            [id] => 342
+        )
+
+)
+
+Футбол+-Array
+(
+    [0] => Array
+        (
+            [id] => 360
+        )
+
+)
+
+Спорт-Array
+(
+    [0] => Array
+        (
+            [id] => 127
+        )
+
+)
+
+Xsport-Array
+(
+)
+
+Paramount Comedy Россия-Array
+(
+)
+
+Русский роман-Array
+(
+    [0] => Array
+        (
+            [id] => 390
+        )
+
+)
+
+Добро ТВ-Array
+(
+    [0] => Array
+        (
+            [id] => 376
+        )
+
+)
+
+Футбол 2-Array
+(
+    [0] => Array
+        (
+            [id] => 57
+        )
+
+)
+
+Бойцовский клуб-Array
+(
+    [0] => Array
+        (
+            [id] => 406
+        )
+
+)
+
+Мир сериала-Array
+(
+    [0] => Array
+        (
+            [id] => 162
+        )
+
+)
+
+NLO TV-Array
+(
+    [0] => Array
+        (
+            [id] => 410
+        )
+
+)
+
+НТА-Array
+(
+    [0] => Array
+        (
+            [id] => 338
+        )
+
+)
+
+УТР-Array
+(
+)
+
+Эко-ТВ-Array
+(
+    [0] => Array
+        (
+            [id] => 261
+        )
+
+)
+
+Тонiс HD-Array
+(
+    [0] => Array
+        (
+            [id] => 386
+        )
+
+)
+
+ОНТ-Array
+(
+    [0] => Array
+        (
+            [id] => 219
+        )
+
+)
+
+Шансон-Array
+(
+    [0] => Array
+        (
+            [id] => 313
+        )
+
+)
+
+Право TV-Array
+(
+    [0] => Array
+        (
+            [id] => 407
+        )
+
+)
+
+Shopping TV-Array
+(
+)
+
+UA Fashion-Array
+(
+    [0] => Array
+        (
+            [id] => 144
+        )
+
+)
+
+Рада-Array
+(
+    [0] => Array
+        (
+            [id] => 231
+        )
+
+)
+
+Черноморская ТРК-Array
+(
+    [0] => Array
+        (
+            [id] => 378
+        )
+
+)
+
+Загородная жизнь-Array
+(
+    [0] => Array
+        (
+            [id] => 421
+        )
+
+)
+
+Мужской-Array
+(
+    [0] => Array
+        (
+            [id] => 420
+        )
+
+)
+
+Ваш успех-Array
+(
+    [0] => Array
+        (
+            [id] => 422
+        )
+
+)
+
+A-one-Array
+(
+    [0] => Array
+        (
+            [id] => 152
+        )
+
+)
+
+История-Array
+(
+    [0] => Array
+        (
+            [id] => 423
+        )
+
+)
+
+Банк ТВ-Array
+(
+    [0] => Array
+        (
+            [id] => 395
+        )
+
+)
+
+Zoom-Array
+(
+    [0] => Array
+        (
+            [id] => 78
+        )
+
+)
+
+Комсомольская правда-Array
+(
+    [0] => Array
+        (
+            [id] => 426
+        )
+
+)
+
+РЖД ТВ-Array
+(
+)
+
+ Done
+11-Jun-2013 12:48:17 - EPG - Parsing TV programs for  220 channels.

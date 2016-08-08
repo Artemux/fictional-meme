@@ -1,0 +1,453 @@
+/* Page */
+
+body {
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	background-color: transparent;
+	color: #111111;
+	overflow: hidden;
+}
+
+.statusclass {
+	position: absolute;
+	top: 30px;
+	left: 550px;
+	font: 26pt sans-serif;
+	color: white;
+	font-weight: bold;
+}
+.volumeclass {
+	position: absolute;
+	visibility: hidden;
+	top: 380px;
+	left: 200px;
+	font: 24pt sans-serif;
+	color: blue;
+	font-weight: bold;
+}
+.alphaclass {
+	visibility: hidden;
+	position: absolute;
+	left: 0px;
+	top: 467px;
+	width: 669px;
+	height: 100px;
+	background: #262626;
+	border-top: 2px solid #7f7f7f;
+	color: white;
+	font: 14px;
+	padding: 5px 1px 1px 70px;
+}
+#TopLine {
+	position: fixed;
+	z-index: 0;
+	top: 28px;
+	left: 0px;
+	height: 49px;
+	width: 100%;
+	visibility: hidden;
+	background: url("./images/topline_bg.png") repeat-x;
+}
+
+#ClockDiv {
+	visibility: hidden;
+	position: absolute;
+	z-index: 1;
+	height: 49px;
+	width: 180px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	padding: 4px 0 0 40px;
+	font-size: 16px;
+	color: white;
+}
+#ClockDiv span {
+	font-size: 12px;
+}
+#ChanNameDiv i {
+	width: 20px;
+	height: 49px;
+	background: url("./images/nav_arrow.png") no-repeat transparent;
+	overflow: hidden;
+	float: right;
+	margin-top: -25px;
+	margin-right: -20px;
+	text-indent: -999px;
+}
+
+#ChanNumDiv {
+	visibility: hidden;
+	position: absolute;
+	z-index: 1;
+	height: 41px;
+	width: 100px;
+	left: 550px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	padding: 8px 40px 0 0;
+	font-size: 28px;
+	color: white;
+}
+
+#ChanNameDiv {
+	visibility: hidden;
+	position: absolute;
+	z-index: 0;
+	height: 49px;
+	top: 55px;
+	padding: 23px 0 0 80px;
+	font-size: 20px;
+	color: white;
+	background: url("./images/nav_bg.png") repeat-x;
+}
+
+#NewsDiv{
+	height: 49px;
+	background: url("./images/nav_bg.png") repeat-x;
+}
+
+#ChanInfo {
+	margin-left: 8px;
+}
+.volCellOff {
+	background-color: transparent;
+	border: 2px solid blue;
+}
+.volCellOn {
+	background-color: blue;
+	border: 2px solid blue;
+}
+#VolumeBlock {
+
+}
+#Volume .image {
+	color: white;
+	font-size: 22px;
+	text-align: center;
+}
+#Volume .empty, #Volume .full {
+	width: 70%;
+	margin: 2px auto;
+	height: 15px;
+	border: 2px solid white;
+	font-size: 12px;
+	text-align: center;
+}
+#Volume .empty {
+	background-color: #222222;
+}
+#Volume .full {
+	background-color: #F4795B;
+}
+.unSelectMi {
+	color: #f9f9f9;
+	padding: 1px 1px 1px 60px;
+	height: 25px;
+	background: #333;
+}
+.selectMi {
+	overflow: hidden;
+	line-height: 20px;
+	background: url('./images/selected_item4.png') repeat-x;
+	color: #111;
+	padding: 2px 0px 0px 65px;
+	height: 25px;
+	text-overflow: ellipsis;
+}
+
+.menuclass {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	visibility: hidden;
+	font: 18px;
+	width: 280px;
+	height: 545px;
+	color: #111111;
+	padding: 20px 0 0 0;
+}
+.genreInfo {
+	height: 35px;
+	color: #f9f9f9;
+	font-size: 18px;
+	padding: 14px 0 0 0;
+	margin-top: 8px;
+	text-align: center;
+	background: url("./images/nav_bg.png") repeat-x;
+}
+.pageInfo {
+	height: 45px;
+	color: #f9f9f9;
+	padding: 14px 10px 0 0;
+	font-size: 14px;
+	text-align: right;
+	background: url("./images/nav_bg.png") repeat-x;
+}
+.settingElement {
+	margin-top: 7px;
+	position: relative;
+	width: 255px;
+	height: 32px;
+	padding: 7px 0 0 10px;
+	text-align: center;
+	background: url(./images/settingElement.png) no-repeat;
+}
+.settingElementActive {
+	margin-top: 7px;
+	position: relative;
+	width: 255px;
+	height: 32px;
+	padding: 7px 0 0 10px;
+	text-align: center;
+	background: url(./images/settingElementActive.png) no-repeat;
+}
+.timerActive {
+	color: red;
+}
+.timer {
+	color: white;
+}
+#EpgFull{
+	z-index: 50;
+	display: none;
+	width: 93%;
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 0 15px 0 35px;
+	background: #ddd;
+}
+.epg .chan-header{
+	width: 100%;
+	padding-top: 40px;
+	z-index: 51;
+}
+.epg .chan-name, .epg .chan-date{
+	padding: 5px 20px;
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+}
+.epg .chan-name{
+	border: 1px solid #0054AA;
+	background: #3084D9;
+}
+
+.epg .chan-date{
+	float: right;
+	border: 1px solid #007308;
+	background: #00B30C;
+}
+
+.epg .chan-content{
+	overflow: hidden;
+}
+.epg .shedule-container{
+	float: left;
+	margin: 0;
+	padding: 0 20px 0;
+	width: 280px;
+	font-size: 14px;
+	z-index: 1;
+}
+.epg .nav-container{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+}
+.epg .nav{
+	position: relative;
+	width: 500px;
+	height: 100%;
+	margin: 0 auto;
+	color: #000;
+	background: transparent url(./images/epg-nav.png) no-repeat;
+}
+.epg .nav .left, .epg .nav .right{
+	width: 120px;
+	padding: 6px 12px;
+}
+
+.epg .nav .left{
+	float: left;
+	text-align: left;
+}
+
+.epg .nav .right{
+	float: right;
+	text-align: right;
+}
+
+.epg .nav .content{
+	width: 200px;
+	margin: 0 150px;
+	padding: 6px 12px;
+	text-align: center;
+}
+.shedule-container .time, .shedule-container .cur_time{
+	width: 31px;
+	float: left;
+	margin: 0;
+	padding: 1px 3px;
+	color: #BB0000;
+	white-space: nowrap;
+}
+.shedule-container .cur_time{
+	font-weight: bold;
+}
+.shedule-container .programm{
+	position: relative;
+	margin-left: 40px;
+	padding: 1px 3px 3px 3px;
+	font-weight: normal;
+}
+.loading,
+.current-program{
+	position: absolute;
+	width: 420px;
+	color:white;
+	margin-left: 195px;
+	margin-top: -23px;
+	opacity: 0.9;
+	font-size: 0.8em;
+}
+.loading,
+.current-program .image{
+	padding: 7px 2px;
+	height: 100%;
+	height: 100%;
+	overflow: hidden;
+	valign: center;
+	float: left;
+}
+.current-program .start,
+.current-program .end,
+.current-program .program{
+	padding: 5px 2px;
+	height: 100%;
+	height: 100%;
+	overflow: hidden;
+	valign: center;
+}
+.current-program .start,
+.current-program .end
+{
+	font-weight: bolder;
+	text-align: center;
+	font-size: 1em;
+	valign: center;
+	background-color: #5BB75B;
+    background-image: linear-gradient(to bottom, #62C462, #51A351);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.current-program .start{
+	width: 50px;
+	float: left;
+	border-radius: 0 0 0 2px;
+	
+}
+.loading,
+.current-program .end{
+	width: 50px;
+	float: right;
+	border-radius: 0 4px 4px 0;
+}
+.loading{
+	width: 150px;
+}
+.current-program .program{
+	margin-left: 0px;
+	border: 1px solid #666;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+	width: 341px;
+	background-color: white;
+	color: black;
+	valign: center;
+	white-space: nowrap; /* Запрещаем перенос строк */
+	text-overflow: ellipsis;
+}
+
+.current-program:after{
+	clear: both;
+}
+#BottomDiv{
+	visibility: hidden;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 90px;
+	border-top: 2px solid #7f7f7f;
+	color: white;
+	margin: 0px;
+	opacity: 0.75;
+}
+#BottomDiv .program-container{
+	
+}
+#BottomDiv .start,
+#BottomDiv .end,
+#BottomDiv .program{
+	padding: 5px 2px;
+	height: 35px;
+	overflow: hidden;
+	valign: center;
+}
+#BottomDiv .start,
+#BottomDiv .end
+{
+	font-weight: bolder;
+	font-size: 1,5em;
+	valign: center;
+	background-color: #5BB75B;
+    background-image: linear-gradient(to bottom, #62C462, #51A351);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+#BottomDiv .orange
+{
+	background-color: #49AFCD;
+    background-image: linear-gradient(to bottom, #5BC0DE, #2F96B4);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+#BottomDiv .start{
+	width: 120px;
+	float: left;
+	text-align: right;	
+}
+#BottomDiv .end{
+	width: 79px;
+	float: right;
+	text-align:left;
+}
+#BottomDiv .program{
+	border: 1px solid #666;
+	border-top: none;
+	border-bottom: none;
+	width: 82%;
+	background-color: white;
+	color: black;
+	valign: center;
+	text-overflow: ellipsis;
+}
+
+#BottomDiv:after{
+	clear: both;
+}

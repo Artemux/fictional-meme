@@ -1,0 +1,402 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html {
+	min-height: 100%;
+}
+body {
+	font: 14px/18px Arial, Tahoma, Verdana, sans-serif;
+	height: 100%;
+	overflow: hidden;
+	background-image: url("../images/bg-main-list-blue.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	list-style: none;
+}
+.clearfix{
+	clear: both;
+}
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 100px;
+}
+
+#header #left{
+	height: 49px;
+	width: 200px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	padding: 4px 0 0 40px;
+	font-size: 16px;
+	color: white;
+}
+
+#header #left span{
+	font-size: 12px;
+}
+#header #left .image{
+	float: left;
+	margin-left: 40px;
+}
+#header #left .clock{
+	font-size: 1.25em;
+	margin-top: 6px;
+}
+#header i{
+	width: 20px;
+	height: 49px;
+	background: url("../images/nav_arrow.png") no-repeat transparent;
+    overflow: hidden;
+    top: 20px;
+    position: absolute;
+    text-indent: -999px;
+}
+#right{
+	display: block;
+    float: right;
+    height: 100px;
+    width: 130px;
+    margin-top:5px;
+    z-index: 100;
+}
+#right img{
+	margin: 20px 50px 0 0;
+}
+#right .temp{
+    float: left;
+    font-size: 35px;
+    left: 20px;
+    opacity: 1;
+    position: relative;
+    top: -50px;
+}
+/* Middle
+-----------------------------------------------------------------------------*/
+.title{
+	width: 300px;
+	text-align: center;
+	color: white;
+	font-size: 1.75em;
+	margin: 0 auto;
+}
+
+#nav, #page{
+	border: 1px solid #999;
+	background-color: black;
+	color: white; 
+	height: 20px;
+	padding-left: 40px;
+}
+#page{
+	text-align: right;
+	padding-right: 40px;
+}
+.menu img{
+    border: 0px solid transparent;
+    position: relative;
+    top: 4px;
+}
+
+.main{
+	display: block;
+	position: fixed;
+    top:130px;
+    height: 400px;
+	width: 100%;
+}
+.main #playlist_block{
+	z-index:10;
+    padding: 0px 100px;
+    overflow: hidden;
+    position: relative;
+    height: 280px;
+    background: transparent url("../images/playlist_bg.png") repeat-x;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+#playlist_block #playlist{
+	padding: 10px 0;
+}
+#playlist_block input{
+	width: 100%;
+	margin: 0;
+	text-align: left;
+}
+.button, .button_active{
+	padding: 5px 5px 2px 5px;
+	height: 22px;
+	text-align: left;
+	overflow: hidden;
+	clear: both;
+}
+.button{
+	background: transparent;
+	color: #bbb;
+}
+.button img, .button_active img{
+	padding-right: 8px;
+	float: left;
+}
+.chanName{
+	width: 35%;
+	display: inline-block;
+}
+.chanProgram{
+	display: inline-block;
+	text-overflow: ellipsis;
+}
+.button_active{
+	background: url("../images/timer_button.png") repeat-x;
+	color: white;
+	font-weight: bold;
+	border: 1px solid #888;
+	border-radius: 4px;
+}
+.main #description{
+    font-size: 22px;
+    padding:20px 0 0 100px;
+    height: 80px;
+    background: transparent url("../images/description_bg.png") repeat-x;
+}
+.main #description span{
+    color: #FF6600;
+    font-size: 20px;
+}
+.search-form{
+	font-size: 1.25em;
+	color: white;
+	width: 400px;
+	margin: 0 0 0 100px;
+	padding: 10px 0;
+}
+.search-form input{
+	border: none;
+	color: white;
+	width: 200px;
+	background: transparent;
+	border-bottom: 2px solid white;
+}
+.popup_overlay {
+	z-index: 9999;
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	text-align: center
+}
+.popup_overlay:after {
+	display: inline-block;
+	height: 100%;
+	width: 0;
+	vertical-align: middle;
+	content: ''
+}
+.popup {
+	display: inline-block;
+	position: relative;
+	max-width: 80%;
+	max-height: 400px;
+	overflow-y: scroll;
+	padding: 20px;
+	border: 5px solid #fff;
+	border-radius: 15px;
+	background: #fff;
+	vertical-align: middle;
+	text-align: left;
+}
+.popup img{
+	float: right;
+}
+.popup p{
+	
+}
+.tright, .vcard,.popup table{
+	float: left;
+	margin: 0 10px 0 0; 
+}
+.tright:after{
+	clear: both;
+}
+.vcard:after{
+	clear: both;
+}
+.popup table:after{
+	clear: both;
+}
+.popup .noprint, .popup .dablink, .popup .reference{
+	display: none;
+}
+.popup p{
+	text-indent: 1.5em;
+	text-align: justify;
+}
+.popup table p{
+	text-indent: 0;
+	text-align: left;
+
+}
+.popup input[type='text']{
+	float: right;
+}
+
+#loading{
+	display: none;
+	position: absolute;
+	width: 100%;
+	color: white;
+}
+
+#loading .info{
+	width: 90px;
+	float: right;
+	font-size: 0.75em;
+	padding: 4px 8px;
+	background-color: #000;
+	border-radius: 4px 0 0 4px;
+}
+#loading .info img{
+	float: left;
+	padding-top: 3px;
+}
+/* Buttons
+-----------------------------------------------------------------------------*/
+.button-group{
+	display: block;
+	width: 200px;
+	padding: 4px 8px;
+	margin: 0 auto;
+	color: white;
+	border: 2px solid #dedede;
+	background: transparent;
+	border-radius: 8px;
+	background: url("../images/timer_button.png") repeat;
+}
+
+.button-group .button{
+	float: left;
+	width: 8px;
+	height: 8px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+.button-group .red{
+	background-color: red;
+}
+.button-group .green{
+	background-color: green;
+}
+
+/* EPG
+-----------------------------------------------------------------------------*/
+#EpgFull{
+	z-index: 50;
+	display: none;
+	width: 93%;
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 0 15px 0 35px;
+	background: #ddd;
+}
+.epg .chan-header{
+	width: 100%;
+	z-index: 51;
+}
+.epg .chan-name, .epg .chan-date{
+	padding: 5px 20px;
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+}
+.epg .chan-name{
+	border: 1px solid #0054AA;
+	background: #3084D9;
+}
+
+.epg .chan-date{
+	float: right;
+	border: 1px solid #007308;
+	background: #00B30C;
+}
+
+.epg .chan-content{
+	overflow: hidden;
+}
+.epg .shedule-container{
+	float: left;
+	margin: 0;
+	padding: 0 20px 0;
+	width: 280px;
+	font-size: 14px;
+	z-index: 1;
+}
+.epg .nav-container{
+	display: none;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+}
+.epg .nav{
+	
+	position: relative;
+	width: 500px;
+	height: 100%;
+	margin: 0 auto;
+	color: #000;
+	background: transparent url(./images/epg-nav.png) no-repeat;
+}
+.epg .nav .left, .epg .nav .right{
+	width: 120px;
+	padding: 6px 12px;
+}
+
+.epg .nav .left{
+	float: left;
+	text-align: left;
+}
+
+.epg .nav .right{
+	float: right;
+	text-align: right;
+}
+
+.epg .nav .content{
+	width: 200px;
+	margin: 0 150px;
+	padding: 6px 12px;
+	text-align: center;
+}
+.shedule-container .time, .shedule-container .cur_time{
+	width: 31px;
+	float: left;
+	margin: 0;
+	padding: 1px 3px;
+	color: #BB0000;
+	white-space: nowrap;
+}
+.shedule-container .cur_time{
+	font-weight: bold;
+}
+.shedule-container .programm{
+	position: relative;
+	margin-left: 40px;
+	padding: 1px 3px 3px 3px;
+	font-weight: normal;
+}

@@ -1,0 +1,98 @@
+/* Page */
+
+body {
+	font-family: Tahoma,Verdana,sans-serif;
+	background-color: black;
+}
+
+.statusclass {
+	position: absolute;
+	top: 30px;
+	left: 550px;
+	font: 26pt sans-serif;
+	color: white;
+	font-weight: bold;
+}
+
+.volumeclass {
+	position: absolute;
+	visibility: hidden;
+	top: 380px;
+        left: 200px;
+	font: 24pt sans-serif;
+	color: blue;
+	font-weight: bold;
+}
+
+.alphaclass {
+	visibility: hidden;
+	position: absolute;
+	top: 445px;
+	width: 660px;
+	height: 110px;
+	background: #EDF4FF url(./images/epg_background2.png) repeat-x;
+	border-top: 3px solid #010101;
+	color: black;	
+	font: 15pt sans-serif;
+	padding: 5px 1px 1px 50px;
+}
+
+.volCellOff {
+	background-color: transparent;
+	border: 1px solid blue;
+}
+.volCellOn {
+	background-color: blue;
+	border: 1px solid blue;
+}
+
+.unSelectMi {
+	color: #333333;
+	padding: 1px 1px 1px 5px;
+	height: 25px;
+}
+.selectMi {
+	width: 262px;
+	background: #d4e1fb url(./images/selected_item2.png) repeat-x;
+	border: 1px solid #334874;
+	color: #111111;
+	padding: 1px 1px 1px 5px;
+	height: 25px;
+}
+.menuclass {
+	top: 50px;
+	left: 50px;
+	position: absolute;
+	visibility: hidden;
+	font: 20px sans-serif;
+	background: #EDF4FF  url(./images/menu_background2.png) repeat-y;
+	width: 270px;
+	color: black;
+	padding: 5px 3px 1px 3px;
+}
+.pageInfo{
+	width: 270px;
+	padding: 4px 0;
+	border-top: 1px solid #999999;
+	font-size: 16px;
+	text-align: center;
+}
+.settingElement{
+	margin-top: 7px;
+	position: relative;
+	width: 255;
+	height: 32px;
+	padding: 7px 0 0 10px;
+	text-align: center;
+	background: url(./images/settingElement.png) no-repeat;
+}
+
+.settingElementActive{
+	margin-top: 7px;
+	position: relative;
+	width: 255;
+	height: 32px;
+	padding: 7px 0 0 10px;
+	text-align: center;
+	background: url(./images/settingElementActive.png) no-repeat;
+}

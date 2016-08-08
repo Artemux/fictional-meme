@@ -1,0 +1,67 @@
+<?php
+require_once SCRIPT_LIB.'com.inc.php';
+$c = new com();
+require_once SCRIPT_LIB.'table.inc.php';
+$t = new table($this->db);
+?>
+<H4>Заказать услугу</H4>
+<SMALL>
+&nbsp;&nbsp;&nbsp;Абоненты, которые с задержкой пополнили свой счёт (в текущем месяце не было оплаты, 
+и предоставление услуг приостановлено), но хотят пользоваться услугой в текущем месяце, могут выбрать 
+услугу на текущий месяц. При этом сумма за услугу (пакет) в текущем месяце будет снята в размере 
+полной стоимости пакета, в независимости от даты активации услуги.<br>
+&nbsp;&nbsp;&nbsp;Также, с помощью заказа услуги, вы можете сменить услугу на следующий месяц. Выберите 
+другой пакет и другой месяц, следующий за оплаченным текущим месяцем, и активируйте услугу. Возможность 
+работать с новым пакетом будет только после окончания уже действующего пакета.<br>
+&nbsp;&nbsp;&nbsp;<b>Внимание!</b> Будьте предельно внимательны при выборе услуги (пакета) и периода (месяца).<br>
+&nbsp;&nbsp;&nbsp;Отменить ваш выбор можно только в <A HREF="http://www.briz.ua/contacts.html">абонентском
+отделе ТРК "Бриз"</A> по адресу ул. Бочарова, 2 по предоставлению вашего абонентского договора и по вашему 
+письменному заявлению с убедительными обоснованиями необходимости отмены.
+</SMALL>
+<br/>
+<br/>
+<FORM method="post">
+<TABLE border="1" cellspacing="0">
+	<TR>
+		<TD align=center><b>Логин</b></TD>
+		<TD align=center><b>Услуга</b></TD>
+		<TD align=center><b>Период<BR>активации</b></TD>
+		<TD align=center><b>Дополнительные<BR>услуги *</b></TD>
+		<TD>&nbsp;</TD>
+	</TR>
+	<?foreach($this->logins as $id=>$login):?>
+	<TR>
+		<TD><b><?=$login?></b></TD>
+		<?if($this->conns[$id] && empty($this->in_progress[$id])):?>
+			<TD><?$c->select("s[$id]",$this->services[$id])?></TD>
+			<TD><?$c->select("p[$id]",$this->periods[$id])?></TD>
+			<!--<TD><?$t->checkbox("bInetServiceEx","e[$id]")?></TD>-->
+			<TD><?foreach($this->servex[$id] as $eid=>$name):?><?$c->clabel("e[$id][]",$eid,$name)?><?endforeach?></TD>
+			<TD align="center">
+			    <INPUT type="Submit" name="b[<?=$id?>]" value="Активировать"><br/>
+			    <INPUT type="checkbox" name="bonus[<?=$id?>]" value="bonus">Использовать баллы **
+			</TD>
+		<?elseif(!empty($this->in_progress[$id])):?>
+			<TD colspan="4">
+				<DIV align=center><FONT color=green><B>Учетная запись в процессе активации</B></FONT></DIV>
+				<DIV align=center><FONT color=green>активация назначена на <?=$this->in_progress[$id]?></FONT></DIV>
+			</TD>
+		<?else:?>
+			<TD colspan="4">
+				<DIV align=center><FONT color=red><B>Учетная запись отключена от сети</B></FONT></DIV>
+				<SMALL>&nbsp;&nbsp;&nbsp;Для активации услуги для этой учетной записи, зайдите в
+				<A HREF="http://www.briz.ua/contacts.html">центральный офис</A>
+				и оставьте заявку на восстановление.
+				</SMALL>
+			</TD>
+		<?endif?>
+	</TR>
+	<?endforeach?>
+</TABLE>
+</FORM>
+<SMALL>
+<b>**</b>&nbsp;&nbsp;&nbsp;Активация бонусных баллов. Оплатить можно только интернет пакет.
+Выбранные дополнительные услуги не учитываются. <a href="http://www.briz.ua/internet/bonus.html" title="подробнее о бонусной программе">Подробнее о бонусной программе</a> 
+<br/>
+<b>***&nbsp;&nbsp;<font color="red">Активация услуги производится в течение 15 мин.</font></b>
+</SMALL>

@@ -1,0 +1,304 @@
+body, html{
+    font-family:  Times, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    width: 704px;
+    height: 576px;
+    margin: 0;
+    padding: 0;
+    background: url("../images/bg-main-list-blue.png") no-repeat;
+	background-size: cover;
+    overflow: hidden;
+}
+html{
+    background-color: black;
+}
+.top .logo{
+    position: fixed;
+    top:30px;
+    left: 50px;
+    float: left;
+}
+.system #left{
+	height: 49px;
+	width: 180px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	padding: 4px 0 0 40px;
+	font-size: 16px;
+	color: white;
+}
+
+.system #left span{
+	font-size: 12px;
+}
+.system i{
+	width: 20px;
+	height: 49px;
+    overflow: hidden;
+    top: 20px;
+    position: absolute;
+    text-indent: -999px;
+}
+div.main{
+    height: 500px;
+}
+div.main #menu_block{
+    position: relative;
+    width: 1600px;
+    height: 154px;
+}
+div.main #line{
+    position: fixed;
+    top: 200px;
+    width: 100%;
+    height: 162px;
+    background-color: #111111;
+    border-top: 2px solid #919191;
+    border-bottom: 2px solid #919191;
+    opacity: 0.5;
+}
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 100px;
+}
+
+#header #left{
+	height: 49px;
+	width: 180px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	padding: 4px 0 0 40px;
+	font-size: 16px;
+	color: white;
+}
+
+#header #left span{
+	font-size: 12px;
+}
+#header #left .image{
+	float: left;
+	margin-left: 40px;
+}
+#header #left .clock{
+	font-size: 1.25em;
+	margin-top: 6px;
+}
+#header i{
+	width: 20px;
+	height: 49px;
+	background: url("../images/nav_arrow.png") no-repeat transparent;
+    overflow: hidden;
+    top: 20px;
+    position: absolute;
+    text-indent: -999px;
+}
+#right{
+	display: block;
+    float: right;
+    height: 100px;
+    width: 130px;
+    margin-top:5px;
+    z-index: 100;
+}
+#right img{
+	margin: 20px 50px 0 0;
+}
+#right .temp{
+    float: left;
+    font-size: 35px;
+    left: 20px;
+    opacity: 1;
+    position: relative;
+    top: -50px;
+}
+div.main #menu{
+    left: 40px;
+    top:190px;
+    position:  relative;
+    overflow: hidden;
+    width: 640px;   
+}
+div#menu_block{
+    margin-left: -320px;
+}
+#menu_block .element, .elementActive{
+    padding:10px 0 0 0;
+    display: block;
+    position: relative;
+    float: left;
+    width: 180px;
+    height: 170px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+#menu_block .element{
+    opacity: 0.5;
+    border: 2px solid transparent;
+    background-color: transparent;
+}
+#menu_block .elementActive{
+    opacity: 1;
+    width: 180px;
+    border: 2px solid #bababa;
+    background: #111111 url("../images/menu_window.png") no-repeat;
+}
+div.bottom{
+    opacity: 0.8;
+    position: fixed;
+    width: 704px;
+    font-size: 18px;
+    text-align: center;
+    top: 500px;
+}
+div#status{
+    display: none;
+}
+#back_button{
+    margin-left: 250px;
+    height: 50px;
+    background: transparent url("../images/button_back_bckg.png") no-repeat;
+} 
+#back_arrow{
+    position: fixed;
+    top: 500px;
+    left: 600px;
+    height: 50px;
+    background: #111111;
+    border: 2px solid #bababa;
+} 
+.main .valutaConteiner{
+    width: 400px;
+    text-align: center;
+    padding: 100px 0 0 150px;
+    text-align: center;
+}
+.main .valutaConteiner .valuta{
+    opacity: 0.9;
+    padding-bottom: 20px;
+    background-color: transparent;
+}
+.header{
+    padding: 8px;
+    border-bottom: 2px solid #bababa;
+    font-weight: bold;
+}
+.weatherBody{
+    width: 220px;
+    margin-right: 4px;
+    position: relative; 
+    text-align: center;
+    border: 2px solid transparent;
+    float: left;
+    height: 230px;
+    padding: 30px 5px 0 5px;
+    opacity: 0.5;
+}
+.weatherBodyActive{
+    opacity: 1;
+    height: 215px;
+    width: 220px;
+    margin-right: 4px;
+    position: relative; 
+    text-align: center;
+    border: 2px solid #bababa;
+    padding: 30px 5px 0 5px;
+    float: left;
+}
+.goroskopBody{
+    width: 600px;
+    margin-right: 4px;
+    position: relative; 
+    text-align: center;
+    border: 2px solid transparent;
+    float: left;
+    height: 220px;
+    padding: 30px 5px 0 5px;
+    visibility: hidden;
+}
+.goroskopBodyActive{
+    width: 600px;
+    margin-right: 4px;
+    position: relative; 
+    text-align: center;
+    border: 2px solid #bababa;
+    background: #111111 url("../images/goroskop_bckg.png") repeat-x;
+    height: 220px;
+    padding: 20px 5px 0 5px;
+    float: left;
+}
+.weatherBody span{
+    margin-bottom: 4px;
+}
+ul.dailyNews{
+    list-style: none;
+    position: relative;
+}
+li a{
+    text-decoration: none;
+    color: silver;
+}
+li.dailyNewsBlock{
+    padding: 5px 5px 2px 5px;
+	height: 22px;
+	text-align: left;
+	overflow: hidden;
+	clear: both;
+	background: transparent;
+	color: #bbb;
+}
+
+li.dailyNewsBlockActive{
+	background: url("../images/timer_button.png") repeat-x;
+	color: white;
+	font-weight: bold;
+	border: 1px solid #888;
+	border-radius: 4px;
+}
+li div.description{
+    font-weight: normal;
+    font-size: 16px;
+    text-indent: 1.5em;
+    border-top: 2px dotted #aeaeae;
+    margin-top: 8px;
+    padding: 8px;
+}
+.clearfix{
+	clear: both;
+}
+
+.disable{
+	opacity: 0.5;
+}
+.enable{
+	opacity: 1;
+}
+.button, .button_active{
+	padding: 5px 5px 2px 5px;
+	height: 22px;
+	text-align: left;
+	overflow: hidden;
+	clear: both;
+}
+.button{
+	background: transparent;
+	color: #bbb;
+}
+.button img, .button_active img{
+	padding-right: 8px;
+	float: left;
+}
+.button span, .button_active span{
+	float: right;
+}
+.button_active{
+	background: url("../images/timer_button.png") repeat-x;
+	color: white;
+	font-weight: bold;
+	border: 1px solid #888;
+	border-radius: 4px;
+}
